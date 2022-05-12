@@ -1,7 +1,7 @@
 _BASE_: "../Base-TESTR.yaml"
 DATASETS:
   TRAIN: ("totaltext_poly_train",)
-  TEST: ("totaltext_poly_test",)
+  TEST: ("totaltext_poly_val",)
 MODEL:
   TRANSFORMER:
     USE_POLYGON: True
